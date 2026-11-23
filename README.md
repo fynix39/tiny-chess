@@ -18,6 +18,14 @@ MAKEFUN_ENV_URL=http://localhost:8080 python3 main.py
 
 Python 3.13, standard library only, no network beyond the env, no model calls.
 
+## Practice results
+
+Graded locally on the kit's three published practice instances
+(env + scorer, direct trial runs): Elo **1,451 / 1,451 / 1,545**
+(mean **1,482**), 11 wins / 3 draws / 4 losses over 18 games — above
+the 1,154 practice floor and the ~1,365 sunfish baseline mean.
+Slowest move 3.9 s (limit 10 s); trial wall 725–882 s (limit 1,800 s).
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=jvcw07av&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
